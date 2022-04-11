@@ -11241,8 +11241,56 @@ header.masthead .site-heading .h1 {
 .post-preview > .post-meta > a {
   text-decoration: none;
 }
+
 @media (min-width: 992px) {
   .post-preview > a > .post-title {
     font-size: 2.25rem;
   }
+}
+
+.buy-button {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.price {
+  display: flex;
+  font-size: 20px;
+  color: #000;
+}
+
+.snipcart-checkout {
+  display: flex;
+  font-size: 18px;
+  color: #000;
+  line-height: 24px;
+  border: none;
+  padding: 5px;
+  align-items: center;
+  cursor: pointer;
+  background: white;
+  margin-left: auto;
+}
+
+.snipcart-add-item {
+  display: flex;
+  color: #fff;
+  color: var(--color-buttonPrimary,#fff);
+  border-color: transparent;
+  border-color: var(--borderColor-buttonPrimary,transparent);
+  background-color: #1a4db3;
+  background-color: var(--bgColor-buttonPrimary,#1a4db3);
+  padding: 16px;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .2s ease-out;
+  transition-property: color,border-color,background-color,box-shadow;
+  margin-left: 15px;
+}
+
+svg {
+  padding: 10px;
 }
