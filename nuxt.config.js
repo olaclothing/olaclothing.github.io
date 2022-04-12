@@ -1,5 +1,4 @@
 import messages from './translations'
-target: 'static'
 
 export default {
   mode: "universal",
