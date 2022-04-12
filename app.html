@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    {{ HEAD }}
+  </head>
+  <body {{ BODY_ATTRS }}>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FF1GKM9QVT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-FF1GKM9QVT');
+    </script>
+    <script>
+      document.addEventListener('snipcart.ready', () => {
+        window.toggleDarkMode = function(isDarkMode){
+          const body = document.querySelector('body')
+          window.localStorage.setItem('isDarkMode', isDarkMode)
+          const lightModeColors = {
+            input: {
+              color: '#2e3338'
+            },
+            label: {
+              color: '#2e3338'
+            }
+          };
+
+          const darkModeColors = {
+            input: {
+              color: '#e6e6e6'
+            },
+            label: {
+              color: '#e6e6e6'
+            }
+          };
+
+          if(isDarkMode){
+            body.classList.add('dark-mode')
+            Snipcart.api.theme.customization.registerPaymentFormCustomization(darkModeColors);
+          }else{
+            body.classList.remove('dark-mode')
+            Snipcart.api.theme.customization.registerPaymentFormCustomization(lightModeColors);
+          }
+        }
+        window.toggleDarkMode(window.localStorage.getItem('isDarkMode') == null || window.localStorage.getItem('isDarkMode') == "false" ? false: true)
+      });
+    </script>
+    {{ APP }}
+  </body>
+</html>
