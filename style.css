@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    font-family: Lobster,sans-serif;
+    color: #333;
+    justify-content: center;
+    flex-direction: column;
+}
+header {
+    padding: 16px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+header.masthead {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-top: calc(8rem + 57px);
+    padding-bottom: 8rem;
+    background: no-repeat center center;
+    background-color: #6c757d;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  header.masthead:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #212529;
+    opacity: 0.5;
+  }
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+    color: #fff;
+  }
+  header.masthead .page-heading,
+  header.masthead .site-heading {
+    text-align: center;
+  }
+  header.masthead .page-heading h1, header.masthead .page-heading .h1,
+  header.masthead .site-heading h1,
+  header.masthead .site-heading .h1 {
+    font-size: 3rem;
+  }
+  header.masthead .page-heading .subheading,
+  header.masthead .site-heading .subheading {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin-top: 0.625rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  header.masthead .post-heading h1, header.masthead .post-heading .h1 {
+    font-size: 2.25rem;
+  }
+  header.masthead .post-heading .meta,
+  header.masthead .post-heading .subheading {
+    line-height: 1.1;
+    display: block;
+  }
+  header.masthead .post-heading .subheading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.75rem 0 2rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  header.masthead .post-heading .meta {
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  header.masthead .post-heading .meta a {
+    color: #fff;
+  }
+  @media (min-width: 992px) {
+    header.masthead {
+      padding-top: 12.5rem;
+      padding-bottom: 12.5rem;
+    }
+    header.masthead .page-heading h1, header.masthead .page-heading .h1,
+  header.masthead .site-heading h1,
+  header.masthead .site-heading .h1 {
+      font-size: 5rem;
+    }
+    header.masthead .post-heading h1, header.masthead .post-heading .h1 {
+      font-size: 3.5rem;
+    }
+    header.masthead .post-heading .subheading {
+      font-size: 1.875rem;
+    }
+  }
+h1 {
+    display: flex;
+    font-size: 32px;
+    color: #000;
+    line-height: 40px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    font-size: 24px;
+    color: #000;
+    align-content: center;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    display: flex;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.buy-button {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.price {
+    display: flex;
+    font-size: 20px;
+    color: #000;
+}
+
+.snipcart-checkout {
+    display: flex;
+    font-size: 18px;
+    color: #000;
+    line-height: 24px;
+    border: none;
+    padding: 5px;
+    align-items: center;
+    cursor: pointer;
+    background: white;
+    margin-left: auto;
+}
+
+.snipcart-add-item {
+    display: flex;
+    color: #fff;
+    color: var(--color-buttonPrimary,#fff);
+    border-color: transparent;
+    border-color: var(--borderColor-buttonPrimary,transparent);
+    background-color: #1a4db3;
+    background-color: var(--bgColor-buttonPrimary,#1a4db3);
+    padding: 16px;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s ease-out;
+    transition-property: color,border-color,background-color,box-shadow;
+    margin-left: 15px;
+}
+
+svg {
+    padding: 10px;
+}
