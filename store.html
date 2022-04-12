@@ -61,36 +61,5 @@
     </footer>
     <script async src="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js"></script>
     <div id="snipcart" data-config-modal-style="side" data-api-key="NjY4MTg2MzctZWI5Ny00ZjJmLWI0NGItMDM1OTk5Mzc2NDU2NjM3ODQ5NTc1MjMyMTU5MjIx" hidden></div>
-    <script>
-        window.addEventListener('DOMContentLoaded', (event) => {
-            const productsDiv = document.getElementById('products');
-            for (let i = 1; i <= 5; i++) {
-                // Create the div to contain the price + button
-                const productDiv = document.createElement('div');
-                productDiv.classList.add('buy-button');
-
-                // Create a span to contain the price
-                const priceSpan = document.createElement('span');
-                priceSpan.appendChild(document.createTextNode('Random product ' + i + ' - $1.99'));
-            
-
-                // Create the buy button
-                const productButton = document.createElement('button');
-                productButton.classList.add('snipcart-add-item');
-                productButton.setAttribute('data-item-id', 'product-' + i);
-                productButton.setAttribute('data-item-price', '1.99');
-                productButton.setAttribute('data-item-description', 'Product ' + i);
-                productButton.setAttribute('data-item-name', 'Product' + 1);
-                productButton.appendChild(document.createTextNode("Product " + i));
-
-                // Append price + button to the div
-                productDiv.appendChild(priceSpan);
-                productDiv.appendChild(productButton);
-
-                // Append to div after the others products
-                productsDiv.appendChild(productDiv);
-            }
-        });
-    </script>
 </body>
 </html>
