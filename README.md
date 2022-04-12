@@ -1,18 +1,5 @@
-# Snipcart v3 demonstration store
+# Ola
 
-## Build Setup
+## Status
 
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8f6caba5-828e-4a3e-a86e-e2034b0982c1/deploy-status)](https://app.netlify.com/sites/ephemeral-basbousa-6d8495/deploys)
