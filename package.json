@@ -8,7 +8,11 @@
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "generate": "nuxt-ts generate",
-    "start": "nuxt-ts start"
+    "start": "nuxt-ts start",
+   "engines": {
+    "npm": ">=6.0.0",
+    "node": ">=10.0.0"
+  },
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.4.0",
