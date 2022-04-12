@@ -33,6 +33,7 @@ export const options = {
   onLanguageSwitched: () => null,
   normalizedLocales: [{"code":"en"},{"code":"fr"}],
   localeCodes: ["en","fr"],
+  additionalMessages: [],
 }
 
 export const localeMessages = {}

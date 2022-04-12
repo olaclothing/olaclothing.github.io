@@ -169,6 +169,26 @@ export function validateRouteParams (routeParams, localeCodes) {
 }
 
 /**
+ * Merge external additional messages
+ *
+ * @param {import('../../types').NuxtI18nInstance} i18n
+ * @param {ResolvedOptions['additionalMessages']} additionalMessages
+ * @param {ResolvedOptions['localeCodes']} localeCodes
+ * @param {string[] | null} [onlyLocales=null]
+ * @return {void}
+ */
+export function mergeAdditionalMessages (i18n, additionalMessages, localeCodes, onlyLocales) {
+  const locales = onlyLocales || localeCodes
+  for (const additionalEntry of additionalMessages) {
+    for (const locale of locales) {
+      const existingMessages = i18n.getLocaleMessage(locale)
+      i18n.mergeLocaleMessage(locale, additionalEntry[locale])
+      i18n.mergeLocaleMessage(locale, existingMessages)
+    }
+  }
+}
+
+/**
  * @param {any} value
  * @return {boolean}
  */
