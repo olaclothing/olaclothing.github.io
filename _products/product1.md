@@ -1,5 +1,5 @@
 ---
-identifier: RZ-SN
+identifier: TZ-RN
 name: Men's Shirt
 price: 24.99
 image: /assets/images/starry-night.jpg
