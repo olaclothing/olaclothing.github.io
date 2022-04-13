@@ -1,7 +1,7 @@
 ---
 identifier: RZ-BAB
-name: Branches with Almond Blossom
-price: 99.95
+name: Shirt
+price: 25.99
 image: /assets/images/almond.jpg
 file_guid: 79b1504d-9127-4e7f-bcdb-dff84a337775
 url: https://olaclothing.ml
