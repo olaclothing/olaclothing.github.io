@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ReplicaZone
-email: geeks@snipcart.com
+title: Ola
+email: contact@olaclothing.ml
 description: >- # this means to ignore newlines until "baseurl:"
-  This demo store is a Jekyll-built static site. The shopping cart runs on Snipcart—it lets you add custom e-commerce to any site in minutes.
+  Ride the wave.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: snipcart
+twitter_username: clothing_ola
 github_username:  snipcart
 
 # Build settings
