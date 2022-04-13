@@ -1,9 +1,8 @@
 ---
-identifier: RZ-IR
+identifier: womanshirt1
 name: Woman's Shirt
 price: 24.99
-image: /assets/images/irises.jpg
-file_guid: 66edfe7f-0851-4418-93e8-785975df7318
+image: /assets/product-images/women/womanshirt1.jpg
 url: https://olaclothing.ml
 ---
-Irises is yet again, another painting by the Dutch artist Vincent van Gogh.
+Yet again, another shirt that looks cool.

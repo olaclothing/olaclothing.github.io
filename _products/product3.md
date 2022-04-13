@@ -1,9 +1,8 @@
 ---
-identifier: RZ-BAB
-name: Shirt
-price: 25.99
-image: /assets/images/almond.jpg
-file_guid: 79b1504d-9127-4e7f-bcdb-dff84a337775
+identifier: manshirt2
+name: Man's Shirt
+price: 24.99
+image: /assets/product-images/men/manshirt2.jpg
 url: https://olaclothing.ml
 ---
-Branches with Almond Blossom is another van Gogh painted in 1890.
+Once again, another shirt that's cool.

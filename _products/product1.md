@@ -1,8 +1,8 @@
 ---
-identifier: TZ-RN
+identifier: manshirt1
 name: Men's Shirt
 price: 24.99
-image: /assets/images/starry-night.jpg
+image: /assets/product-images/men/manshirt1.jpg
 url: https://olaclothing.ml
 ---
-High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh.
+Ola shirt with a design that looks very cool.
